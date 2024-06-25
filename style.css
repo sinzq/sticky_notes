@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+}
+#app {
+    margin: 20px;
+}
+#loginForm, #registerForm, #noteApp {
+    display: none;
+}
+#noteApp {
+    margin-top: 20px;
+}
+#addNoteBtn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.note {
+    width: 200px;
+    height: 260px;
+    background: #fffa65;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    position: absolute;
+}
+.note input, .note textarea, .note select {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.note input {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.note textarea {
+    height: 100px;
+    resize: none;
+}
+.note .date {
+    font-size: 0.8em;
+    color: #555;
+    position: absolute;
+    bottom: 38px;
+    right: 10px;
+}
+.note button {
+    display: block;
+    margin-top: 80px;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.note .color-select {
+    display: block;
+    margin-top: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}

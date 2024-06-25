@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="authForms">
+            <h2 id="authTitle">Login</h2>
+            <form id="loginForm">
+                <input type="text" id="loginUsername" placeholder="Username" required><br>
+                <input type="password" id="loginPassword" placeholder="Password" required><br>
+                <button type="submit">Login</button>
+                <p><a href="#" onclick="toggleForms()">Register</a></p>
+            </form>
+
+            <form id="registerForm">
+                <input type="text" id="registerUsername" placeholder="Username" required><br>
+                <input type="password" id="registerPassword" placeholder="Password" required><br>
+                <button type="submit">Register</button>
+                <p><a href="#" onclick="toggleForms()">Login</a></p>
+            </form>
+        </div>
+
+        <div id="noteApp">
+            <button id="addNoteBtn">Add Note</button>
+            <button id="logoutBtn">Logout</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
